@@ -20,7 +20,7 @@ This application is not deployed, please click the link below to view a video of
 
 Alternatively, you can [install](#installation) this application on your own machine and try it yourself.
 
-[Click to view the application video demo](https://drive.google.com/file/d/1GLroCZDuAj0cBaTNaoEnTCi9L4TkM_JA/view)
+[Click to view the application video demo](https://drive.google.com/file/d/1gpkEIPPF95u-nLRZIYmM7tLB7mnH69w4/view)
 
 ## Technologies Employed
 
@@ -95,7 +95,7 @@ git@github.com:sharkby7e/sharkFin7ech.git
 navigate into the directory, and then run the following command
 
 ```
-npm install
+npm i
 ```
 
 ## Usage
@@ -150,8 +150,9 @@ https://www.github.com/sharkby7e
 
 ## Summary and Learning Points
 
-This application was my first attempt at using mySQL, and the mySQL2 Node package. A tedious and meticulous attention to detail was
-required for this one, and I found myself being quite frustrated at times, especially having to implement asynchonous code blocks in order
-for the application to fully function. I would like to add more features in the future, and definitely would like to refactor the whole thing
-to include classes.
-Fin-Tech Back End
+This project was an introduction to Object Relational Mapping(ORM), which allowed me to have model and store and manipulate data in myriad ways.
+Once the models for our data were created, I was able to ensure that all data that I added was related to each other in the correct ways, and
+was able to be retrieved efficiently. This project also showcases my ability to build functioning API's that can take requests, query a database,
+and serve information back to the user.
+This project showed the benefits of using sequlize to query a database. Even though their built in methods can be picky, I much prefer using sequlize
+to writing raw SQL.
