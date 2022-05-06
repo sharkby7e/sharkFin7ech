@@ -26,7 +26,7 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false,
   },
-  as: "find_product",
+  as: "tag_products",
 });
 
 // Categories have many Products
